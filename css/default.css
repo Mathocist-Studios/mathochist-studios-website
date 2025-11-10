@@ -28,7 +28,7 @@ html, body {
     justify-content: flex-start;
     height: 100%;
     max-height: 100vh;
-    padding: 2rem;
+    padding: 2rem 2rem 0rem 2rem;
 }
 
 #footer {
@@ -60,6 +60,7 @@ html, body {
 #footerText {
     color: #9a9a9a;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 /* Optimize navbar for mobile */

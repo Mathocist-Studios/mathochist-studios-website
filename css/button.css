@@ -1,5 +1,5 @@
 button {
-    margin: auto 0;
+    /* margin: auto 0; */
     padding: 10px 20px;
     border: #ffffff solid 2px;
     border-radius: 50px;
@@ -44,4 +44,14 @@ button:active {
 #downloadLogo {
     width: 1.75rem;
     height: 1.75rem;
+}
+#buttonLinkContainer,#downloadLinkContainer {
+    text-decoration: none;
+}
+
+#downloadLinkContainer {
+    margin: auto 0;
+}
+button:hover>#downloadLinkContainer>#buttonText {
+    text-decoration: underline;
 }
